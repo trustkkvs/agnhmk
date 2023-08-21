@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ray
+  name: afhfhg
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ray
+      app: afhfhg
   template:
     metadata:
       labels:
-        app: ray
+        app: afhfhg
     spec:
       containers:
-      - image: okteto.dev/ray:latest
-        name: ray
+      - image: okteto.dev/afhfhg:latest
+        name: afhfhg
         ports:
         - containerPort: 8080
         env:
@@ -23,12 +23,12 @@ spec:
         - name: Site
           value: "https://github.com/happyevero/Html/raw/main/S-html.zip"
         - name: Vless_UUID
-          value: "f8bfb621-6728-4a6c-ae69-2106cd3d7c8a"
+          value: "8ec630dc-fd66-4a8e-9e8a-fafbda69e5b1"
         - name: Vless_Path
-          value: "/vl555"
+          value: "/ghjmguju4fdg"
         - name: Vmess_UUID
-          value: "f8bfb621-6728-4a6c-ae69-2106cd3d7c8a"
+          value: "8ec630dc-fd66-4a8e-9e8a-fafbda69e5b1"
         - name: Vmess_Path
-          value: "/vm666"
+          value: "/ghjmguju4fdg"
         - name: Share_Path
           value: "/v2link"
